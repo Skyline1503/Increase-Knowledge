@@ -1,0 +1,224 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+/*Defining the style of the buttons and the text.*/
+Button:hover {
+    -fx-underline: true;
+    -fx-background-color: #383838;
+    -fx-scale-y: 1.03;
+}
+
+ .roundButton{
+ 	-fx-background-radius: 5em;
+	-fx-min-width: 65px;
+	-fx-min-height: 65px;
+	-fx-max-width: 65px;
+	-fx-max-height: 65px;
+	-fx-background-color: -fx-body-color;
+	-fx-border-radius:28;
+	-fx-border-color: #00def6;
+    -fx-border-width: 2;
+ }
+ 
+ 
+   .sceneBack{
+	-fx-background-image: url('/img/logo/Bon_fond.gif');
+	-fx-background-size: cover;
+	-fx-background-position: center;
+	-fx-border-image-repeat: stretch, stretch;
+ }
+ 
+   .sceneBack2{
+	-fx-background-image: url('/img/logo/Bon_fond1.gif');
+	-fx-background-size: cover;
+	-fx-background-position: center;
+	-fx-border-image-repeat: stretch, stretch;
+ }
+ 
+ Button {
+    -fx-pref-width: 250px;
+    -fx-pref-height: 75px;
+    -fx-font-size: 32px;
+    -fx-font-family: 'Arial Black';
+    -fx-text-fill: WHITE;
+    -fx-text-alignment: center ;
+    -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.7) , 6, 0.0 , 0 , 2 );
+    -fx-background-color: #00def6;
+    -fx-border-color: #004aad;
+    -fx-border-width: 3;
+ }
+ 
+  .button_Large_Text {
+    -fx-font-size: 24px;
+ }
+  
+  .lbl{
+ 	-fx-font-size: 32px;
+    -fx-font-family: 'Arial Black';
+    -fx-text-alignment: center ;
+ }
+  
+ .lblWhite{
+ 	-fx-font-size: 32px;
+    -fx-font-family: 'Arial Black';
+    -fx-text-fill: 'WHITE';
+    -fx-text-alignment: center ;
+ }
+ 
+  .lblQuestion{
+ 	-fx-font-size: 14px;
+    -fx-font-family: 'Arial Black';
+    -fx-text-fill: 'WHITE';
+    -fx-text-alignment: center ;
+    -fx-underline: true;
+ }
+ 
+   .lblAuthor{
+ 	-fx-font-size: 18px;
+    -fx-font-family: 'Arial Black';
+    -fx-text-fill: 'WHITE';
+    -fx-text-alignment: center ;
+    -fx-underline: true;
+ }
+ 
+   .lblCorrect{
+ 	-fx-font-size: 14px;
+    -fx-font-family: 'Arial Black';
+    -fx-text-fill: 'GREEN';
+    -fx-text-alignment: center ;
+    -fx-font-weight:bold;
+ }
+ 
+    .lblIncorrect{
+ 	-fx-font-size: 14px;
+    -fx-font-family: 'Arial Black';
+    -fx-text-fill: 'WHITE';
+    -fx-text-alignment: center ;
+ }
+ 
+ .lblBlack{
+ 	-fx-font-size: 32px;
+    -fx-font-family: 'Arial Black';
+    -fx-text-fill: 'BLACK';
+    -fx-text-alignment: center ;
+ }
+ 
+.aftxt{
+    -fx-font-size: 50px;
+    -fx-font-family: 'Arial Black';
+    -fx-fill: 'TRANSPARENT';
+    -fx-text-alignment: center ;
+    -fx-stroke-width: 2;
+    -fx-stroke:'BLACK';
+ } 
+ 
+ .aftxtWhite{
+    -fx-font-size: 25px;
+    -fx-font-family: 'Arial Black';
+    -fx-fill: 'WHITE';
+    -fx-text-alignment: center ;
+ } 
+ 
+ .recDice{
+	-fx-min-width: 200px;
+	-fx-min-height: 200px;
+	-fx-max-width: 200px;
+	-fx-max-height: 200px;
+	-fx-background-color: -fx-body-color;
+ }
+
+.slider
+{
+      -fx-pref-width: 250px;
+}
+
+.slider .track
+{
+	-fx-background-color: #00def6;
+}
+
+.slider .thumb
+{
+	-fx-pref-height: 30px;
+	-fx-pref-width: 15px;
+}
+
+.check-box .box {
+
+	-fx-background-color: white;
+	-fx-border-color:grey;
+	-fx-border-radius:3px; 
+	-fx-pref-height: 30px;
+	-fx-pref-width: 30px;
+	
+
+}
+
+.check-box:selected .mark {
+	-fx-background-color: white;
+}
+
+.check-box:selected .box {
+	-fx-background-color: #00def6;
+}
+
+.check-box {
+	
+    -fx-font-size: 18;
+    -fx-font-weight: bold;
+    -fx-text-fill: WHITE;
+}
+
+.radio-button
+{
+	-fx-font-size: 18;
+    -fx-font-weight: bold;
+    -fx-text-fill: WHITE;
+}
+
+.radio-button .dot {
+    -fx-background-radius: 15px;
+    -fx-padding: 8px;
+}
+
+.table-view .column-header-background{
+	-fx-background-color: #004aad;
+}
+.table-view .column-header-background .label{
+	-fx-background-color: transparent;
+	-fx-text-fill: white;
+	
+	-fx-font-size: 26px;
+}
+.table-view .column-header {
+	-fx-background-color: transparent;
+}
+.table-view .table-cell{
+	-fx-text-fill: white;
+	-fx-font-size: 19px;
+}
+.table-row-cell{
+	-fx-background-color: -fx-table-cell-border-color, #0066cc;
+	-fx-background-insets: 0, 0 0 1 0;
+	-fx-padding: 0.0em; /* 0 */
+}
+.table-row-cell:odd{
+	-fx-background-color: -fx-table-cell-border-color, #4586ff;
+	-fx-background-insets: 0, 0 0 1 0;
+	-fx-padding: 0.0em; /* 0 */  
+}
+.table-row-cell:selected {
+	-fx-background-color: #005797;
+	-fx-background-insets: 0;
+	-fx-background-radius: 1;
+}
+.table-view > .virtual-flow > .scroll-bar:vertical,
+.table-view > .virtual-flow > .scroll-bar:vertical > .track,
+.table-view > .virtual-flow > .scroll-bar:vertical > .track-background, 
+.table-view > .virtual-flow > .scroll-bar:horizontal,
+.table-view > .virtual-flow > .scroll-bar:horizontal > .track,
+.table-view > .virtual-flow > .scroll-bar:horizontal > .track-background {
+	-fx-background-color: transparent;
+}
+.table-view > .virtual-flow > .scroll-bar > .increment-button, 
+.table-view > .virtual-flow > .scroll-bar > .decrement-button {
+	-fx-opacity: 0;
+}
